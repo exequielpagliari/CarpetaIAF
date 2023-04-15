@@ -3,11 +3,17 @@
 }
 
 h1, h2, h3, h4, h5{
-    margin-top: 25px;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
 }
 
 section{
-    margin-top: 25px;
+
     text-align: justify;
 }
 
@@ -24,7 +30,17 @@ h1, h2 {
     font-weight: bold;
 }
 
+.img{
 
+    display: flex;
+    justify-content: center;
+}
+
+img{
+
+    height: 100px;
+    width: 200px;
+}
 
 @media screen and (min-width: 400px) {
     
