@@ -8,21 +8,21 @@ h1, h2, h3, h4, h5{
 
 section{
     margin-top: 25px;
+    text-align: justify;
 }
 
 section ul li{
     margin-top: 10px;
 }
 
-p{
-    text-align: justify;
-}
 
 h1, h2 {
     text-align: center;
 }
 
-
+.negrita{
+    font-weight: bold;
+}
 
 
 
