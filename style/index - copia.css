@@ -3,7 +3,7 @@
 }
 
 h1, h2, h3, h4, h5, section, img p{
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 h1, h2, h3, h4, h5{

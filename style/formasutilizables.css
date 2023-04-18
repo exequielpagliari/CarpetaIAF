@@ -3,7 +3,7 @@
 }
 
 h1, h2, h3, h4, h5, section, img p{
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 h1, h2, h3, h4, h5{
@@ -16,6 +16,10 @@ main{
 
 }
 
+img{
+    width: 100%;
+}
+
 td, th, table{
     border: 1px solid black;
 }
@@ -23,6 +27,19 @@ td, th, table{
 table td{
     text-align: justify;
     padding: 10px;
+}
+
+
+
+table td img{
+    width: 100px;
+    height: 150px;
+    margin-left: 30%;
+}
+
+#auto td p{
+    padding: 5%;
+    width: 25%;
 }
 
 p{
@@ -47,17 +64,7 @@ h1, h2 {
     font-weight: bold;
 }
 
-.img{
 
-    display: flex;
-    justify-content: center;
-}
-
-img{
-
-    height: 100px;
-    width: 200px;
-}
 
 @media screen and (min-width: 400px) {
     
