@@ -29,19 +29,15 @@ table td{
     padding: 10px;
 }
 
-.tablaauto{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-}
+
 
 .tablaauto1{
-    align-items: flex-start;
+
     width: 50%;
 }
 
 .tablaauto2{
-    align-items: flex-end;
+
     width: 50%;
 }
 
